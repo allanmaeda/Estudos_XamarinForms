@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Views_Entry_Xaml.MainPage">
+  <ContentPage.Content>
+    <Entry HorizontalOptions="FillAndExpand"
+           VerticalOptions="Center"
+           Placeholder="Digite o texto aqui"
+           Completed="NewEntryTextoCompleto"
+           TextChanged="NewEntryTextoModificado"
+           Keyboard="{Binding KeyboardPersonalizado}"/>
+  </ContentPage.Content>
+  
+  
+</ContentPage>
