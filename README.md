@@ -3,9 +3,23 @@
 - Pasta **Primeiros Passos** mostra projetos básicos sobre o uso de cada tecnologia
 
 - Pasta **Views** contém projetos que mostram exemplos básicos de implementação de *Views* do Xamarin.Forms
- - Exemplo de Label em código e Xaml
- - Exemplo de Button em código e Xaml
- - Exemplo de Entry em código e Xaml
- - Exemplo de ActivityIndicator em código e Xaml
- - Exemplo de BoxView em código e Xaml
- - Exemplo de Editor em código e Xaml
+ - Exemplo de [Label][l01] em código e Xaml
+ - Exemplo de [Button][l02] em código e Xaml
+ - Exemplo de [Entry][l03] em código e Xaml
+ - Exemplo de [ActivityIndicator][l04] em código e Xaml
+ - Exemplo de [BoxView][l05] em código e Xaml
+ - Exemplo de [Editor][l06] em código e Xaml
+ - Exemplo de [ProgressBar][l07] em código e Xaml
+ - Exemplo de [Slider][l08] em código e Xaml
+ - Exemplo de [Stepper][l09] em código e Xaml
+
+ [l01]: https://developer.xamarin.com/api/type/Xamarin.Forms.Label/
+ [l02]: https://developer.xamarin.com/api/type/Xamarin.Forms.Button/
+ [l03]: https://developer.xamarin.com/api/type/Xamarin.Forms.Entry/
+ [l04]: https://developer.xamarin.com/api/type/Xamarin.Forms.ActivityIndicator/
+ [l05]: https://developer.xamarin.com/api/type/Xamarin.Forms.BoxView/
+ [l06]: https://developer.xamarin.com/api/type/Xamarin.Forms.Editor/
+ [l07]: https://developer.xamarin.com/api/type/Xamarin.Forms.ProgressBar/
+ [l08]: https://developer.xamarin.com/api/type/Xamarin.Forms.Slider/
+ [l09]: https://developer.xamarin.com/api/type/Xamarin.Forms.Stepper/
+

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Views_Slider_Xaml.MainPage">
+  <ContentPage.Content>
+    <Slider 
+      Minimum="0"
+      Maximum="125"
+      VerticalOptions="Center"
+      HorizontalOptions="Fill"
+      Value="57"
+      ValueChanged="Slider_OnValueChanged"
+      />
+  </ContentPage.Content>
+
+</ContentPage>
