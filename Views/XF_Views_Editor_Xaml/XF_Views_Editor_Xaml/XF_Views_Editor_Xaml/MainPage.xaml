@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Views_Editor_Xaml.MainPage">
+  
+  <ContentPage.Content>
+    <Editor
+      FontSize="35"
+      FontAttributes="Italic"
+      Text="teste"
+      Completed="Editor_OnCompleted"
+      TextChanged="Editor_OnTextChanged"
+      />
+  </ContentPage.Content>
+  
+
+</ContentPage>
