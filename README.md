@@ -6,15 +6,12 @@
  - Exemplo de [Label][l01] em código e Xaml
  - Exemplo de [Button][l02] em código e Xaml
  - Exemplo de [Entry][l03] em código e Xaml
-
  - Exemplo de [ActivityIndicator][l04] em código e Xaml
  - Exemplo de [BoxView][l05] em código e Xaml
  - Exemplo de [Editor][l06] em código e Xaml
-
  - Exemplo de [ProgressBar][l07] em código e Xaml
  - Exemplo de [Slider][l08] em código e Xaml
  - Exemplo de [Stepper][l09] em código e Xaml
-
  - Exemplo de [Switch][l10] em código e Xaml
  - Exemplo de [SearchBar][l11] em código e Xaml
 
