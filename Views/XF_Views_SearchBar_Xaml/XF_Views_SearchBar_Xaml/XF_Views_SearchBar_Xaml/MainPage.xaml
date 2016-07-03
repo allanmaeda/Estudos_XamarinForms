@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Views_SearchBar_Xaml.MainPage">
+  <ContentPage.Content>
+    <SearchBar 
+      HorizontalOptions="Fill"
+      VerticalOptions="Center"
+      CancelButtonColor="Black"
+      Placeholder="Digite o termo de busca"
+      PlaceholderColor="Green"
+      FontSize="25"
+      FontAttributes="Bold"
+      TextChanged="SearchBar_OnTextChanged"
+      SearchButtonPressed="SearchBar_OnSearchButtonPressed"
+      />
+  </ContentPage.Content>
+</ContentPage>
