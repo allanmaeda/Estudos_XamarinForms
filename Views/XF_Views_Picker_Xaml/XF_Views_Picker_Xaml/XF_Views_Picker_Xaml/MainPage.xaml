@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Views_Picker_Xaml.MainPage">
+  
+  <ContentPage.Content>
+    <Picker 
+      VerticalOptions="Center" 
+      HorizontalOptions="Fill" 
+      SelectedIndexChanged="Picker_OnSelectedIndexChanged">
+      <Picker.Items>
+        <x:String>Opção 1</x:String>
+        <x:String>Opção 2</x:String>
+        <x:String>Opção 3</x:String>
+      </Picker.Items>
+    </Picker>
+    
+  </ContentPage.Content>
+  
+
+</ContentPage>

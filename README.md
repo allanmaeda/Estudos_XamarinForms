@@ -14,6 +14,9 @@
  - Exemplo de [Stepper][l09] em código e Xaml
  - Exemplo de [Switch][l10] em código e Xaml
  - Exemplo de [SearchBar][l11] em código e Xaml
+ - Exemplo de [TimePicker][l12] em código e Xaml
+ - Exemplo de [DatePicker][l13] em código e Xaml
+ - Exemplo de [Picker][l14] em código e Xaml
 
  [l01]: https://developer.xamarin.com/api/type/Xamarin.Forms.Label/
  [l02]: https://developer.xamarin.com/api/type/Xamarin.Forms.Button/
@@ -26,4 +29,7 @@
  [l09]: https://developer.xamarin.com/api/type/Xamarin.Forms.Stepper/
  [l10]: https://developer.xamarin.com/api/type/Xamarin.Forms.Switch/
  [l11]: https://developer.xamarin.com/api/type/Xamarin.Forms.SearchBar/
+ [l12]: https://developer.xamarin.com/api/type/Xamarin.Forms.TimePicker/
+ [l13]: https://developer.xamarin.com/api/type/Xamarin.Forms.DatePicker/
+ [l14]: https://developer.xamarin.com/api/type/Xamarin.Forms.Picker/
 
