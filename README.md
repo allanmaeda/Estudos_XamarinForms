@@ -18,6 +18,8 @@
  - Exemplo de [DatePicker][l13] em código e Xaml
  - Exemplo de [Picker][l14] em código e Xaml
 
+- Pasta **Layouts** contém projetos que mostram exemplos básicos de implementação de *Layouts* do Xamarin.Forms, além da interação entre *Views* dentro da mesma *Page*
+
  [l01]: https://developer.xamarin.com/api/type/Xamarin.Forms.Label/
  [l02]: https://developer.xamarin.com/api/type/Xamarin.Forms.Button/
  [l03]: https://developer.xamarin.com/api/type/Xamarin.Forms.Entry/
