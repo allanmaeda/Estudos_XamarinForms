@@ -1,0 +1,12 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Layout_MultiplasViews_Xaml.MainPage">
+  
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="Center">
+        <Label Text="Texto exemplo" x:Name="Texto"/>
+        <Button Clicked="Button_OnClicked" Text="Clique Aqui!"/>
+        <Entry HorizontalOptions="Fill" x:Name="CaixaDeTexto" />
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
