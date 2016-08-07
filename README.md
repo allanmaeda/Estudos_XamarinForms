@@ -19,6 +19,9 @@
  - Exemplo de [Picker][l14] em código e Xaml
 
 - Pasta **Layouts** contém projetos que mostram exemplos básicos de implementação de *Layouts* do Xamarin.Forms, além da interação entre *Views* dentro da mesma *Page*
+ - Exemplo de interação entre Views apenas com código C#.
+ - Exemplo de  interação entre Views com C# e Xaml
+
 
  [l01]: https://developer.xamarin.com/api/type/Xamarin.Forms.Label/
  [l02]: https://developer.xamarin.com/api/type/Xamarin.Forms.Button/
