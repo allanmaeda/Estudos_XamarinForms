@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_StackLayout_ExemploPratico2.MainPage">
+  <ContentPage.Content>
+    <StackLayout>
+      <BoxView x:Name="Caixa" HeightRequest="100"/>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="R" />
+        <Slider HorizontalOptions="FillAndExpand" x:Name="SliderR" Minimum="0" Maximum="1" ValueChanged="Slider_OnValueChanged"/>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="G"></Label>
+        <Slider HorizontalOptions="FillAndExpand" x:Name="SliderG" Minimum="0" Maximum="1" ValueChanged="Slider_OnValueChanged"/>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="B"></Label>
+        <Slider HorizontalOptions="FillAndExpand" x:Name="SliderB" Minimum="0" Maximum="1" ValueChanged="Slider_OnValueChanged"/>
+      </StackLayout>
+      <Label Text="Descrição da cor:" HorizontalOptions="Center"/>
+      <Label x:Name="LblCorResultante"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
