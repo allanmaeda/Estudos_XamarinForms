@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_ScrollView_Parte2.MainPage">
+  <ContentPage.Content>
+    <StackLayout>
+      <ScrollView Orientation="Horizontal" VerticalOptions="FillAndExpand">
+        <StackLayout Orientation="Horizontal">
+          <BoxView WidthRequest="500" BackgroundColor="Aqua"/>
+          <BoxView WidthRequest="500" BackgroundColor="Red"/>
+          <BoxView WidthRequest="500" BackgroundColor="Green"/>
+        </StackLayout>
+      </ScrollView>
+      <Button Text="Botao que não rola"></Button>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
