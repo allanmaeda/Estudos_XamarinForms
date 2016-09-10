@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_ScrollView_Parte3.MainPage">
+  <ContentPage.Content>
+    <StackLayout>
+      <ScrollView Orientation="Vertical" x:Name="MeuScroll" Scrolled="MeuScroll_OnScrolled" VerticalOptions="FillAndExpand">
+        <StackLayout Orientation="Vertical">
+          <BoxView HeightRequest="500" BackgroundColor="Fuchsia" x:Name="Box1"/>
+          <BoxView HeightRequest="600" BackgroundColor="Aqua" x:Name="Box2"/>
+          <BoxView HeightRequest="290" BackgroundColor="Green" x:Name="Box3"/>
+          <BoxView HeightRequest="420" BackgroundColor="Yellow" x:Name="Box4" />
+        </StackLayout>
+      </ScrollView>
+      <Button Text="Botao" Clicked="Button_OnClicked"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
