@@ -19,8 +19,9 @@
  - Exemplo de [Picker][l14] em código e Xaml
 
 - Pasta **Layouts** contém projetos que mostram exemplos básicos de implementação de *Layouts* do Xamarin.Forms, além da interação entre *Views* dentro da mesma *Page*
- - Exemplo de interação entre Views apenas com código C#.
- - Exemplo de  interação entre Views com C# e Xaml
+ - Pasta **Geral** mostra exemplos de interação entre Views com C# e Xaml
+ - Pasta **ScrollView** mostra exemplos básicos sobre o funcionamento de [ScrollViews][l15] em C# e Xaml
+ - Pasta **StackLayout** mostra exemplos básicos sobre o funcionamento de [StackLayouts][l16] em C# e Xaml
 
 
  [l01]: https://developer.xamarin.com/api/type/Xamarin.Forms.Label/
@@ -37,4 +38,6 @@
  [l12]: https://developer.xamarin.com/api/type/Xamarin.Forms.TimePicker/
  [l13]: https://developer.xamarin.com/api/type/Xamarin.Forms.DatePicker/
  [l14]: https://developer.xamarin.com/api/type/Xamarin.Forms.Picker/
+ [l15]: https://developer.xamarin.com/api/type/Xamarin.Forms.ScrollView/
+ [l16]: https://developer.xamarin.com/api/type/Xamarin.Forms.StackLayout/
 
