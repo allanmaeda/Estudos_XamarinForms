@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_ComunicacaoModalsBinding.MainPage">
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+      <Entry x:Name="Info1" Placeholder="Digite a informação 1" HorizontalOptions="FillAndExpand"/>
+      <Entry x:Name="Info2" Placeholder="Digite a informação 2" HorizontalOptions="FillAndExpand"/>
+      <Button Text="Abrir modal" Clicked="Button_OnClicked" HorizontalOptions="FillAndExpand"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
