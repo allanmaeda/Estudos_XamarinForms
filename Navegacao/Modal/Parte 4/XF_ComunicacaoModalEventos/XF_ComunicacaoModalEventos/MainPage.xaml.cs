@@ -13,12 +13,10 @@ namespace XF_ComunicacaoModalEventos
         private async void Button_OnClicked(object sender, EventArgs e)
         {
             // criando a modalPage e amarrando um método ao ModalHandler
-            var modalPage = new ModalPage
+            var modalPage = new ModalPage();
+            modalPage.ModalHandler += (o, args) =>
             {
-                ModalHandler = (o, args) =>
-                {
-                    Entry.Text = (string)o;
-                }
+                Entry.Text = (string) o;
             };
 
             await Navigation.PushModalAsync(modalPage, true);

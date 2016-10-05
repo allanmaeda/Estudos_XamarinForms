@@ -6,7 +6,7 @@ namespace XF_ComunicacaoModalEventos
     public partial class ModalPage : ContentPage
     {
         // criando event handler para amarrar funções externas
-        public EventHandler ModalHandler { get; set; }
+        public event EventHandler ModalHandler;
 
         public ModalPage()
         {
