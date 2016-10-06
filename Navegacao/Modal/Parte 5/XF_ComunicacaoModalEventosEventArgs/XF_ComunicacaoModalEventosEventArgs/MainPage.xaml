@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_ComunicacaoModalEventosEventArgs.MainPage">
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+      <Entry IsEnabled="False" Placeholder="Aguarde..." x:Name="Entry1" HorizontalOptions="FillAndExpand"/>
+      <Entry IsEnabled="False" Placeholder="Aguarde..." x:Name="Entry2" HorizontalOptions="FillAndExpand"/>
+      <Entry IsEnabled="False" Placeholder="Aguarde..." x:Name="Entry3" HorizontalOptions="FillAndExpand"/>
+      <Button Clicked="Button_OnClicked" Text="Abrir modal"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
