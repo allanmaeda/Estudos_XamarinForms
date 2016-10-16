@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_DataBinding1.MainPage">
+  <StackLayout VerticalOptions="CenterAndExpand">
+    <Slider x:Name="SliderExemplo"
+            Maximum="100" Minimum="1"/>
+    <Label BindingContext="{x:Reference Name=SliderExemplo}"
+           Text="{Binding Path=Value}"
+           HorizontalOptions="CenterAndExpand"/>
+    <Label BindingContext="{x:Reference SliderExemplo}"
+               Text="{Binding Value, StringFormat='Valor do slider é {0:F1}'}"
+               HorizontalOptions="CenterAndExpand"/>
+  </StackLayout>
+</ContentPage>
