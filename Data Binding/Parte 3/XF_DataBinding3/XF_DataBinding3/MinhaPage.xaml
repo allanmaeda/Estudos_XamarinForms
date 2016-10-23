@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_DataBinding3.MinhaPage">
+
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Fill">
+      <Entry VerticalOptions="FillAndExpand" Text="{Binding Nome, Mode=TwoWay}" x:Name="NomeEntry" />
+      <Entry VerticalOptions="FillAndExpand" Text="{Binding Idade, Mode=TwoWay}" x:Name="IdadeEntry" />
+      <Button VerticalOptions="CenterAndExpand"  Text="Gerar informação aleatória" Clicked="ButtonAleatorio_OnClicked" />
+      <Button VerticalOptions="CenterAndExpand" Text="Mostrar informações" Clicked="ButtonInformacoes_OnClicked" />
+    </StackLayout>
+  </ContentPage.Content>
+
+</ContentPage>
