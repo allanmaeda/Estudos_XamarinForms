@@ -1,5 +1,5 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+**/Debug
+**/Obj
+**/packages
+**/*.suo
 
-/Layouts/StackLayout/XF_StackLayout_Code
