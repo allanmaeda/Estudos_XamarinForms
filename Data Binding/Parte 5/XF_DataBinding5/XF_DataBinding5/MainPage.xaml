@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_DataBinding5.MainPage">
+  <StackLayout VerticalOptions="CenterAndExpand">
+    <Entry Text="{Binding Nome, Mode=TwoWay}" />
+    <Entry Text="{Binding Sobrenome, Mode=TwoWay}" />
+    <Button Text="Forçar informações via backend" Clicked="ForcarInformacaoViaBackend" />
+    <Button Text="Imprimir informaçoes" Clicked="ImprimirInformacoes" />
+  </StackLayout> 
+</ContentPage>
