@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xfDataBinding6="clr-namespace:XF_DataBinding6;assembly=XF_DataBinding6"
+             x:Class="XF_DataBinding6.MainPage">
+  
+  <ContentPage.Resources>    
+    <ResourceDictionary>
+      <xfDataBinding6:DoubleToStringConverter x:Key="Conversor" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="CenterAndExpand">
+      <Label Text="Entre com a temperatura em Celsius"/>
+      <Entry x:Name="Text1" Text="{Binding TempIn, Converter={StaticResource Conversor}, Mode=OneWayToSource}"/>
+      <Label Text="Esta é a temperatura em Fahrenheit" />
+      <Entry Text="{Binding TempOut, Converter={StaticResource Conversor}}" IsEnabled="False"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
