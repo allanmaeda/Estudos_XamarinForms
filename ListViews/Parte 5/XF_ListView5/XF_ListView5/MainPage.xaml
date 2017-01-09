@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_ListView5.MainPage">
+  <ContentPage.Content>
+    <StackLayout>
+      <ListView x:Name="MyListView">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <TextCell Text="{Binding Elemento}" Detail="{Binding Criacao}" />
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+      <Button Clicked="Button_OnClicked" Text="Adicionar novo elemento"></Button>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
