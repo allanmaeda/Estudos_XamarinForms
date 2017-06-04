@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_Grid_Parte2"
+             x:Class="XF_Grid_Parte2.MainPage">
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition /> <!--0-->
+            <ColumnDefinition /> <!--1-->
+            <ColumnDefinition /> <!--2-->
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition /> <!--0-->
+            <RowDefinition /> <!--1-->
+            <RowDefinition /> <!--2-->
+            <RowDefinition /> <!--3-->
+        </Grid.RowDefinitions>
+
+
+        <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="AliceBlue" />
+        <BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="PaleVioletRed" />
+
+        <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="Yellow" />
+        <BoxView Grid.Row="1" Grid.Column="2" BackgroundColor="DarkSeaGreen" />
+        <BoxView Grid.Row="3" Grid.Column="2" BackgroundColor="AntiqueWhite" />
+
+    </Grid>
+
+</ContentPage>
