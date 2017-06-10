@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Grid_Parte5.MainPage">
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/> <!--0-->
+            <ColumnDefinition Width="*"/> <!--1-->
+            <ColumnDefinition Width="Auto"/> <!--2-->
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/> <!--0-->
+            <RowDefinition Height="100"/> <!--1-->
+            <RowDefinition Height="*"/> <!--2-->
+        </Grid.RowDefinitions>
+        
+        
+        <Label Grid.Row="0" Grid.Column="0" Text="Largura fixa" />
+        <Label Grid.Row="0" Grid.Column="1" Text="Label na maior largura possível" />
+        <BoxView Grid.Row="0" Grid.Column="2" BackgroundColor="DarkRed" WidthRequest="120" />
+        
+        
+        <BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="Aqua" />
+        <Label Grid.Row="1" Grid.Column="1" Text="Label em largura ainda maior possível" />
+        <Button Grid.Row="1" Grid.Column="2" Text="Botão"/>
+        
+        
+        <BoxView Grid.Row="2" Grid.Column="0" BackgroundColor="Green"></BoxView>
+        <BoxView Grid.Row="2" Grid.Column="1" BackgroundColor="DarkCyan"></BoxView>
+        <BoxView Grid.Row="2" Grid.Column="2" BackgroundColor="BlueViolet"></BoxView>
+
+    </Grid>
+
+</ContentPage>
