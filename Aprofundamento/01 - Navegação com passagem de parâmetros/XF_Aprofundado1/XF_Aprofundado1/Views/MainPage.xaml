@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Aprofundado1.Views.MainPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Título:" Grid.Column="0" FontAttributes="Bold" />
+            <Label Text="{Binding Titulo}" Grid.Column="1" />
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Descrição:" Grid.Column="0" FontAttributes="Bold" />
+            <Label Text="{Binding Descricao}" Grid.Column="1" />
+        </Grid>
+        <ListView Grid.Row="2" x:Name="ListaDetalhes">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Titulo}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Grid.Row="3" Text="Abrir janela de detalhes" Clicked="Button_OnClicked" />
+    </Grid>
+
+</ContentPage>
