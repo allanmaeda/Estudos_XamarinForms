@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Styles1.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="Titulos" TargetType="Label">
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="TextColor" Value="Green" />
+            </Style>
+            <Style x:Key="Caixas" TargetType="Entry">
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="Placeholder" Value="Digite o texto" />
+                <Setter Property="BackgroundColor" Value="AliceBlue" />
+            </Style>
+        </ResourceDictionary>
+	</Application.Resources>
+</Application>
