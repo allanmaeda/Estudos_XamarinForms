@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_Styles3"
+             x:Class="XF_Styles3.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Exemplo 1" />
+            <Label Text="Exemplo 2" />
+            <Label Text="Exemplo 3" Style="{StaticResource Texto}" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
