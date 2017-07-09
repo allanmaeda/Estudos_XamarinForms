@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_Styles4"
+             x:Class="XF_Styles4.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Style="{StaticResource Base}" Text="Label com style base" />
+        <Label Style="{StaticResource Derivado1}" Text="Label com style derivado 1" />
+        <Label Style="{StaticResource Derivado2}" Text="Label com style derivado 2" />
+    </StackLayout>
+    
+</ContentPage>
