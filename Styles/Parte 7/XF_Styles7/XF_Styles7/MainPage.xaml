@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_Styles7"
+             x:Class="XF_Styles7.MainPage">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="StyleExemploSemDestaque" TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+            <Style x:Key="StyleExemploComDestaque" TargetType="Label">
+                <Setter Property="TextColor" Value="Red" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+            <Style x:Key="Estilo" TargetType="Label" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="Exemplo de Label"
+                   Style="{DynamicResource Estilo}"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            <Button Text="Dar destaque"  Clicked="DarDestaque_OnClick"/>
+            <Button Text="Tirar destaque" Clicked="TirarDestaque_OnClick"/>
+        </StackLayout>
+        
+    </ContentPage.Content>
+
+	
+
+</ContentPage>
