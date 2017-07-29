@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_Styles9"
+             x:Class="XF_Styles9.MainPage">
+
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        
+        <Label Text="Exemplo de título" Style="{StaticResource StyleDeTitulo}"/>
+
+        <Label Text="Exemplo de subtítulo" Style="{StaticResource StyleDeSubtitulo}"/>
+
+        <Label Text="Exemplo de corpo" Style="{StaticResource StyleDeCorpo}"/>
+
+    </StackLayout>
+
+</ContentPage>

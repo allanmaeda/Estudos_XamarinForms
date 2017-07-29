@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Styles9.App">
+	<Application.Resources>
+
+		<ResourceDictionary>
+
+            <Style x:Key="StyleDeTitulo" TargetType="Label" BaseResourceKey="TitleStyle" >
+                <Setter Property="TextColor" Value="DarkCyan" />
+            </Style>
+
+            <Style x:Key="StyleDeSubtitulo" TargetType="Label" BaseResourceKey="SubtitleStyle">
+                <Setter Property="TextColor" Value="Red" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
+            <Style x:Key="StyleDeCorpo" TargetType="Label" BaseResourceKey="BodyStyle">
+                <Setter Property="TextColor" Value="Orange"/>
+                <Setter Property="BackgroundColor" Value="Azure" />
+            </Style>
+            
+        </ResourceDictionary>
+
+	</Application.Resources>
+</Application>
