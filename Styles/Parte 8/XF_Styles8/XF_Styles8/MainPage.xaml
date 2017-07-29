@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Styles8.MainPage">
+
+
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        
+        <Label Text="Exemplo de título" Style="{DynamicResource TitleStyle}" />
+        
+        <Label Text="Exemplo de subtítulo" Style="{DynamicResource SubtitleStyle}" />
+        
+        <Label Text="Exemplo de legenda" Style="{DynamicResource CaptionStyle}" />
+        
+        <Label Text="Exemplo de texto corpo" Style="{DynamicResource BodyStyle}" />
+        
+        <Label Text="Exemplo de texto para item de lista" Style="{DynamicResource ListItemTextStyle}" />
+        
+        <Label Text="Exemplo de texto para detalhe de lista" Style="{DynamicResource ListItemDetailTextStyle}" />
+        
+    </StackLayout>
+
+</ContentPage>
