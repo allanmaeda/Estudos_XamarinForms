@@ -8,9 +8,7 @@ namespace XF_Styles7
         public MainPage()
         {
             InitializeComponent();
-            Resources["Estilo"] = Resources["StyleExemploSemDestaque"];
         }
-
 
         private void DarDestaque_OnClick(object sender, EventArgs e)
         {
