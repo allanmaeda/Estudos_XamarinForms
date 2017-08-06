@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_Styles10"
+             x:Class="XF_Styles10.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="StyleDinamico" TargetType="Button" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Button Text="Toque aqui" Clicked="Button_OnClicked" Style="{DynamicResource StyleDinamico}"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
