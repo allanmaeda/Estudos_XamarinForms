@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_TabbedPage8.TabPage"
+                BarBackgroundColor="Cornsilk"
+                BarTextColor="#FF0000">
+
+    <ContentPage Title="Tab 1">
+        <Label VerticalOptions="Center" 
+               HorizontalOptions="Center" 
+               Text="Estamos na tab 1" />
+    </ContentPage>
+    <ContentPage Title="Tab 2">
+        <Label VerticalOptions="Center" 
+               HorizontalOptions="Center" 
+               Text="Estamos na tab 2" />
+    </ContentPage>
+    <ContentPage Title="Tab 3">
+        <Label VerticalOptions="Center" 
+               HorizontalOptions="Center" 
+               Text="Estamos na tab 3" />
+    </ContentPage>
+
+</TabbedPage>
