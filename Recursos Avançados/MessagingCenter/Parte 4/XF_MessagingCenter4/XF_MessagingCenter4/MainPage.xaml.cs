@@ -13,9 +13,10 @@ namespace XF_MessagingCenter4
         private void EnviarMensagem_Clicked(object sender, EventArgs e)
         {
             var r = new Random();
-            var model = new Model {
-                Texto = $"texto teste com número ateatório {r.Next(1, 101)}";
-            }
+            var model = new Model
+            {
+                Texto = $"texto teste com número ateatório {r.Next(1, 101)}"
+            };
             MessagingCenter.Send(model, "msg");
         }
 
