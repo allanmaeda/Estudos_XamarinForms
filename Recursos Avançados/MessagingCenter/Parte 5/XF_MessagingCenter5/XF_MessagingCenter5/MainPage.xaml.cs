@@ -5,8 +5,6 @@ namespace XF_MessagingCenter5
 {
     public partial class MainPage : ContentPage
     {
-        public string Identificacao { get; }
-
         public MainPage()
         {
             InitializeComponent();
