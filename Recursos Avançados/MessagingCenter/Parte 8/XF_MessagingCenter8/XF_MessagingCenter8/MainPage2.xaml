@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_MessagingCenter8.MainPage2">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="10,0,10,0">
+            <Label Text="Informação 1:" />
+            <Entry Text="{Binding Informacao1, Mode=TwoWay}" />
+            <Label Text="Informação 2" />
+            <Entry Text="{Binding Informacao2, Mode=TwoWay}" />
+            <Label Text="Informação 3" />
+            <Entry Text="{Binding Informacao3, Mode=TwoWay}" Keyboard="Numeric" />
+            <Button Text="Voltar para página principal" Clicked="Button_OnClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

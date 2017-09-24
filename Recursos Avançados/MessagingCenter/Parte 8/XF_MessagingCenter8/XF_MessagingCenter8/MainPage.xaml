@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_MessagingCenter8"
+             x:Class="XF_MessagingCenter8.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="Informação 1:" />
+            <Entry Text="{Binding Informacao1}" IsEnabled="False" />
+            <Label Text="Informação 2" />
+            <Entry Text="{Binding Informacao2}" IsEnabled="False" />
+            <Label Text="Informação 3" />
+            <Entry Text="{Binding Informacao3}" IsEnabled="False" />
+            <Button Text="Abrir página de detalhes" Clicked="Button_OnClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+
+	
+</ContentPage>
