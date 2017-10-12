@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Aprofundado2.Pages.AddPage">
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Button Text="Adicionar Elemento 1" Clicked="ButtonAddElemento1_OnClicked" Grid.Row="0" />
+        <Button Text="Adicionar Elemento 2" Clicked="ButtonAddElemento2_OnClicked" Grid.Row="1" />
+        <Button Text="Adicionar Elemento 3" Clicked="ButtonAddElemento3_OnClicked" Grid.Row="2" />
+        <Button Text="Voltar" Clicked="ButtonVoltar_OnClicked" Grid.Row="3" />
+
+    </Grid>
+
+</ContentPage>

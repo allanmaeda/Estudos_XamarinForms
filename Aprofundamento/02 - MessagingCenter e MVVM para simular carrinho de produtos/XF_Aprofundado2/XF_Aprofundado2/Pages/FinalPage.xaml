@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Aprofundado2.Pages.FinalPage"
+             NavigationPage.HasNavigationBar="False">
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Text="{Binding QuantElemento1}" HorizontalOptions="Center" VerticalOptions="Center" />
+        <Label Grid.Row="1" Text="{Binding QuantElemento2}" HorizontalOptions="Center" VerticalOptions="Center" />
+        <Label Grid.Row="2" Text="{Binding QuantElemento3}" HorizontalOptions="Center" VerticalOptions="Center" />
+
+        <Button Text="Voltar" Clicked="ButtonVoltar_OnClicked" Grid.Row="3" />
+
+    </Grid>
+</ContentPage>
