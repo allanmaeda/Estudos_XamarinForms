@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_MasterDetail7.MainPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Button Text="Abrir Popover" Clicked="ButtonPopover_OnClicked" />
+            <Button Text="Abrir Split" Clicked="ButtonSplit_OnClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

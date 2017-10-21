@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_MasterDetail6.Views.TabbedPageExemplo">
+    
+    <ContentPage Title="Tab 1">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Esta é a aba 1" />
+            <Button Text="Abrir menu" Clicked="Button_OnClicked" />
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage Title="Tab 2">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Esta é a aba 2" />
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage Title="Tab 3">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Esta é a aba 3" />
+        </StackLayout>
+    </ContentPage>
+    
+</TabbedPage>

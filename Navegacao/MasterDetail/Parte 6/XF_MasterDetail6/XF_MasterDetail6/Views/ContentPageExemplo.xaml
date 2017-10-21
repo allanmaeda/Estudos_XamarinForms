@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_MasterDetail6.Views.ContentPageExemplo">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Esta é a ContentPage" />
+            <Button Text="Abrir menu" Clicked="Button_OnClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
