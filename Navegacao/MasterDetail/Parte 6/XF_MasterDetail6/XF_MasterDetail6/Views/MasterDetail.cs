@@ -17,7 +17,6 @@ namespace XF_MasterDetail6.Views
             TabbedPage = new TabbedPageExemplo();
 
             MessagingCenter.Subscribe<ContentPageExemplo>(this, "abrirMenu", page => IsPresented = true);
-            MessagingCenter.Subscribe<NavigationPageExemplo1>(this, "abrirMenu", page => IsPresented = true);
             MessagingCenter.Subscribe<TabbedPageExemplo>(this, "abrirMenu", page => IsPresented = true);
 
             MessagingCenter.Subscribe<Menu>(this, "contentPage", menu =>
