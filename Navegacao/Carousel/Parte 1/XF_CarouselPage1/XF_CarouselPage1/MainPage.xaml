@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_CarouselPage1"
+             x:Class="XF_CarouselPage1.MainPage">
+    <CarouselPage.Children>
+
+
+
+        <ContentPage>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <BoxView BackgroundColor="Red" WidthRequest="200" HeightRequest="200" />
+            </StackLayout>
+        </ContentPage>
+
+        <ContentPage>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <BoxView BackgroundColor="Yellow" WidthRequest="200" HeightRequest="200" />
+            </StackLayout>
+        </ContentPage>
+
+        <ContentPage>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <BoxView BackgroundColor="Green" WidthRequest="200" HeightRequest="200" />
+            </StackLayout>
+        </ContentPage>
+    </CarouselPage.Children>
+
+</CarouselPage>
