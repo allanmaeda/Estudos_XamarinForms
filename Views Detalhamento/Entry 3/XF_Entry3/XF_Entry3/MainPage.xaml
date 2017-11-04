@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_Entry3"
+             x:Class="XF_Entry3.MainPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="Center">
+                <Entry x:Name="Entry1" Placeholder="Digite a primeira informação" />
+                <Entry x:Name="Entry2" Placeholder="Digite a segunda informação" IsEnabled="False"/>
+                <Entry x:Name="Entry3" Placeholder="Digite a terceira informação" IsEnabled="False"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
