@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_CarouselPage4"
+             x:Class="XF_CarouselPage4.MainPage">
+
+    <ContentPage Padding="10,10,10,10">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Digite o texto que será exibido na próxima tela" />
+            <Entry x:Name="Entry" />
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Padding="10,10,10,10">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Este é o texto digitado:" />
+            <Entry x:Name="Entry2" IsEnabled="False" />
+        </StackLayout>
+    </ContentPage>
+
+</CarouselPage>
