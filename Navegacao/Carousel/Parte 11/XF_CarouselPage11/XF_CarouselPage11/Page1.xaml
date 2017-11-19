@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_CarouselPage11.Page1">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Entry x:Name="Entry" />
+            <Picker x:Name="Picker">
+                <Picker.Items>
+                    <x:String>Preto</x:String>
+                    <x:String>Cinza</x:String>
+                    <x:String>Vermelho</x:String>
+                    <x:String>Verde</x:String>
+                </Picker.Items>
+            </Picker>
+            <Button Text="Voltar sem confirmar" Clicked="ButtonVoltar_OnClicked" />
+            <Button Text="Voltar confirmando" Clicked="ButtonConfirmar_OnClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
