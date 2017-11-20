@@ -27,11 +27,11 @@ namespace XF_CarouselPage11
 
         public Elemento(INavigation navigation)
         {
-            Command = new Command<Elemento>(el =>
+            Command = new Command(() =>
             {
                 Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await navigation.PushModalAsync(new Page1(el));
+                    await navigation.PushModalAsync(new Page1(this));
                 });
             });
         }

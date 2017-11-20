@@ -10,7 +10,7 @@
                 <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
                     <Label Text="{Binding Titulo}" />
                     <BoxView WidthRequest="100" HeightRequest="150" Color="{Binding Cor}"/>
-                    <Button Text="Editar" Command="{Binding Command}" CommandParameter="{Binding .}" />
+                    <Button Text="Editar" Command="{Binding Command}" />
                 </StackLayout>
             </ContentPage>
         </DataTemplate>
