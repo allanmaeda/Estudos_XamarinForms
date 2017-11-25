@@ -5,7 +5,8 @@
              x:Class="XF_Picker4.MainPage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-            <Picker x:Name="Picker" Title="Escolha um elemento" ItemDisplayBinding="{Binding ValorVisual}" />
+            <Picker x:Name="Picker" Title="Escolha um elemento" 
+                    ItemDisplayBinding="{Binding ValorVisual}" />
             <Button Text="Adicione um elemento" Clicked="ButtonAdd_OnClicked" />
         </StackLayout>
     </ContentPage.Content>
