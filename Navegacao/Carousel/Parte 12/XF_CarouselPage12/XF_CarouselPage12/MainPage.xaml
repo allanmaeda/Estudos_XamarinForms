@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_CarouselPage12"
+             xmlns:paginas="clr-namespace:XF_CarouselPage12.Paginas;assembly=XF_CarouselPage12"
+             x:Class="XF_CarouselPage12.MainPage">
+    <CarouselPage.Children>
+        <paginas:Page1 />
+        <paginas:Page2 />
+        <paginas:Page3 />
+        <paginas:Page4 />
+        <paginas:Page5 />
+    </CarouselPage.Children>
+</CarouselPage>
