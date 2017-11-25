@@ -5,11 +5,11 @@ using Xamarin.Forms.Xaml;
 namespace XF_Picker4
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AddEditPage : ContentPage
+    public partial class AddPage : ContentPage
     {
         private Elemento _el;
 
-        public AddEditPage()
+        public AddPage()
         {
             InitializeComponent();
         }

@@ -14,7 +14,7 @@ namespace XF_Picker4
             Elementos = new ObservableCollection<Elemento>();
             Picker.ItemsSource = Elementos;
 
-            MessagingCenter.Subscribe<AddEditPage, Elemento>(this, "NovoElemento", (page, elemento) =>
+            MessagingCenter.Subscribe<AddPage, Elemento>(this, "NovoElemento", (page, elemento) =>
             {
                 Elementos.Add(elemento);
             });
@@ -22,7 +22,7 @@ namespace XF_Picker4
 
         private async void ButtonAdd_OnClicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new AddEditPage());
+            await Navigation.PushModalAsync(new AddPage());
         }
     }
 }
