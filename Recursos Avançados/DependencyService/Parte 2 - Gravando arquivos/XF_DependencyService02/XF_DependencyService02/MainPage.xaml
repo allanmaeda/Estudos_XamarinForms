@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_DependencyService02"
+             x:Class="XF_DependencyService02.MainPage">
+
+    <Grid Padding="0,20,0,0">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        
+        <Label Text="Exemplo de gerenciador de arquivos de texto" 
+               Grid.Column="0" 
+               Grid.Row="0" 
+               Grid.ColumnSpan="2" />
+        
+        <Entry x:Name="Entry" 
+               Grid.Column="0"
+               Grid.Row="1"
+               Grid.ColumnSpan="2" />
+        
+        <Editor x:Name="Editor" 
+                Grid.ColumnSpan="2" 
+                Grid.Row="2" 
+                Grid.Column="0" />
+
+        <Button Text="Carregar"
+                Clicked="ButtonCarregarArquivo_OnClicked"
+                Grid.Row="3"
+                Grid.Column="0"/>
+        
+        <Button Text="Salvar"
+                Clicked="ButtonSalvarArquivo_OnClicked" 
+                Grid.Row="3"
+                Grid.Column="1"/>
+
+    </Grid>
+    
+</ContentPage>
