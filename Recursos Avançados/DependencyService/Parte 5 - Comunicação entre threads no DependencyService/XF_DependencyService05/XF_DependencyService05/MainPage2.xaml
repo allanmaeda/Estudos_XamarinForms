@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_DependencyService05.MainPage2">
+    <ContentPage.Content>
+        <Grid VerticalOptions="Fill" HorizontalOptions="Center">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            
+            <Label Text="Contar vogais" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Center" />
+            <Switch x:Name="SwitchVogais" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" />
+
+            <Label Text="Contar consoantes" Grid.Row="1" Grid.Column="0" VerticalTextAlignment="Center" />
+            <Switch x:Name="SwitchConsoantes" Grid.Row="1" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" />
+
+            <Label Text="Contar espaços" Grid.Row="2" Grid.Column="0" VerticalTextAlignment="Center" />
+            <Switch x:Name="SwitchEspacos" Grid.Row="2" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" />
+            
+            <Button Text="Cancelar" Grid.Row="3" Grid.Column="0" x:Name="ButtonCancelar" />
+            <Button Text="Confirmar" Grid.Row="3" Grid.Column="1" x:Name="ButtonConfirmar" />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
