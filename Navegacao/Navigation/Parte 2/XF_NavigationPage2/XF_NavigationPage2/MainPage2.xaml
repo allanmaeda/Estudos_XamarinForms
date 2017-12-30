@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XF_NavigationPage2.MainPage2">
-  <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-    <Label Text="Esta é a Page 2"/>
-    <Button Text="Voltar para a Page 1" Clicked="Button_OnClicked" />
-  </StackLayout>
-</ContentPage>
