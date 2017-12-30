@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xfTabbedPage2="clr-namespace:XF_TabbedPage2;assembly=XF_TabbedPage2"
+             x:Class="XF_TabbedPage2.TabPage">
+
+    <xfTabbedPage2:MainPage Title="MainPage" Icon="icone" />
+    <xfTabbedPage2:MainPage2 Title="MainPage2" Icon="icone" />
+    <xfTabbedPage2:MainPage3 Title="MainPage3" Icon="icone" />
+    <xfTabbedPage2:MainPage4 Title="MainPage4" Icon="icone" />
+    <xfTabbedPage2:MainPage5 Title="MainPage4" Icon="icone" />
+
+</TabbedPage>
