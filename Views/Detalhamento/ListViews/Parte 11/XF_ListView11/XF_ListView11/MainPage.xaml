@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_ListView11.MainPage">
+
+  <StackLayout>
+    <ListView x:Name="MyListView"
+              ItemTapped="MyListView_OnItemTapped"
+              ItemSelected="MyListView_OnItemSelected"
+                />
+    <Button Text="Limpa Seleção" Clicked="Button_OnClicked"/>
+    <Label x:Name="lblSelecionado" Text="Item foi selecionado" HorizontalTextAlignment="Center"/>
+    <Label x:Name="lblTocado" Text="Item foi tocado" HorizontalTextAlignment="Center"/>
+  </StackLayout>
+</ContentPage>
