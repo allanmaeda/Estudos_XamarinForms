@@ -40,7 +40,7 @@ namespace XF_Plugins_02
 	        var numeroMaximoDePastas = rand.Next(11, 15);
 
 	        for (var i = 1; i <= numeroMaximoDePastas; i++)
-	            await PastaRaiz.CreateFolderAsync(i + "-dir", CreationCollisionOption.ReplaceExisting);
+	            await PastaRaiz.CreateFolderAsync(i + "-dir", CreationCollisionOption.GenerateUniqueName);
 
 	        foreach (var arquivo in await PastaRaiz.GetFilesAsync())
 	            Itens.Add(new Model
