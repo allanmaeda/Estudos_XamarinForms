@@ -32,16 +32,14 @@ namespace XF_Plugins_02
 	        // criando arquivos e pastas aleatoriamente
 	        var rand = new Random();
 
-	        var numeroMinimoDeArquivos = rand.Next(5, 10);
 	        var numeroMaximoDeArquivos = rand.Next(11, 15);
 
-	        for (var i = numeroMinimoDeArquivos; i <= numeroMaximoDeArquivos; i++)
+	        for (var i = 1; i <= numeroMaximoDeArquivos; i++)
 	            await PastaRaiz.CreateFileAsync(i + "-arq", CreationCollisionOption.GenerateUniqueName);
 
-	        var numeroMinimoDePastas = rand.Next(5, 10);
 	        var numeroMaximoDePastas = rand.Next(11, 15);
 
-	        for (var i = numeroMinimoDePastas; i <= numeroMaximoDePastas; i++)
+	        for (var i = 1; i <= numeroMaximoDePastas; i++)
 	            await PastaRaiz.CreateFolderAsync(i + "-dir", CreationCollisionOption.ReplaceExisting);
 
 	        foreach (var arquivo in await PastaRaiz.GetFilesAsync())
