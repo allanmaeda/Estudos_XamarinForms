@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_Plugins_06"
+             x:Class="XF_Plugins_06.MainPage">
+
+	<ContentPage.Content>
+
+        <Grid Padding="0,20,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <Entry x:Name="Label1" Grid.Row="0" Placeholder="Digite aqui a propriedade 1" />
+            <Entry x:Name="Label2" Grid.Row="1" Placeholder="Digite aqui a propriedade 2" />
+            <Button Text="Salvar" Grid.Row="3" Clicked="ButtonSave_OnClicked"/>
+            <Button Text="Carregar" Grid.Row="4" Clicked="ButtonLoad_OnClicked" />
+
+        </Grid>
+
+	</ContentPage.Content>
+
+</ContentPage>
