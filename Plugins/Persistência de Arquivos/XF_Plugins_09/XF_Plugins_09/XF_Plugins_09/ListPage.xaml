@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Plugins_09.ListPage"
+             Title="Listagem">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <ListView x:Name="ListView" Grid.Row="0" Grid.ColumnSpan="2" ItemSelected="ListView_OnItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Nome}" Detail="{Binding Tipo}">
+                        <TextCell.ContextActions>
+                            <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
+                        </TextCell.ContextActions>
+                    </TextCell>
+                    <!--<TextCell Text="{Binding Nome}" Detail="{Binding Tipo}" />-->
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+        <Button Text="Nova pasta" 
+                Grid.Row="1" 
+                Grid.Column="0" 
+                Clicked="Button_CreateFolderOnClicked" />
+
+        <Button Text="Novo arquivo" 
+                Grid.Row="1" 
+                Grid.Column="1" 
+                Clicked="Button_CreateFileOnClicked"/>
+
+    </Grid>
+
+</ContentPage>
