@@ -24,7 +24,6 @@
                             <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
                         </TextCell.ContextActions>
                     </TextCell>
-                    <!--<TextCell Text="{Binding Nome}" Detail="{Binding Tipo}" />-->
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

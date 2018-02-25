@@ -56,8 +56,7 @@ namespace XF_Plugins_08
 
         private async void Button_CreateFileOnClicked(object sender, EventArgs e)
         {
-            var arquivo =
-                await PastaAtual.CreateFileAsync(Guid.NewGuid().ToString(), CreationCollisionOption.GenerateUniqueName);
+            var arquivo = await PastaAtual.CreateFileAsync(Guid.NewGuid().ToString(), CreationCollisionOption.GenerateUniqueName);
             await arquivo.WriteAllTextAsync($"Este arquivo foi criado em {DateTime.Now:dd/MM/yyyy HH:mm:ss}");
             CarregarConteudo();
         }
